@@ -1,26 +1,40 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import HeroBar from './HeroBar';
+import Home from './Home';
+import News from './News';
+import ClubOfficers from './ClubOfficers';
+import Header from './Header';
+import Footer from './Footer';
+import History from './History';
 
-function App() {
+export default function Site() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <HeroBar />
+      <div>
+        <hr />
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/news">
+            <News />
+          </Route>
+          <Route path="/officers">
+            <ClubOfficers />
+          </Route>
+          <Route path="/history">
+            <History />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
-
-export default App;
