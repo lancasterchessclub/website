@@ -1,6 +1,7 @@
 import React from "react";
 import {
   BrowserRouter as Router,
+  HashRouter,
   Switch,
   Route,
 } from "react-router-dom";
@@ -14,7 +15,7 @@ import History from './History';
 
 export default function Site() {
   return (
-    <Router>
+    <HashRouter basename='/'>
       <Header />
       <HeroBar />
       <div>
@@ -35,6 +36,6 @@ export default function Site() {
         </Switch>
         <Footer />
       </div>
-    </Router>
+    </HashRouter>
   );
 }
