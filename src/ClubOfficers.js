@@ -12,7 +12,7 @@ const useStyles = makeStyles({
     width: '100%',
   },
   container: {
-    width: '30%',
+    maxWidth: '700px',
     display: 'inline-block',
   },
   title: {
