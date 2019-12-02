@@ -30,14 +30,14 @@ export default function Home() {
       </div>
       <div className={classes.description}>
         <Typography className={classes.description}>
-          Based in the heart of Lancaster, UK, our historic club which dates back
+          Based in the heart of Lancaster, UK, our historic chess club which dates back
           to 1895 welcomes players of all ages and abilities to come and enjoy a game of chess. 
           Be it for short, long, casual or competitive games there's something for everyone
           here.
         </Typography>
         <Typography className={classes.description}>
-          The club meets twice weekly and over the course of the year highlights range from
-          the round robin club championship (90 minutes), to the rapid play championship,
+          We meet twice weekly and over the course of the year highlights range from
+          the round robin club chess championship (90 minutes), to the rapid play championship,
           as well as occasional blitz chess tournaments. And for players who prefer to 
           play casual games club nights always offer the opportunity to have a game.
         </Typography>
