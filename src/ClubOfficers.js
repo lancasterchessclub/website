@@ -34,9 +34,9 @@ export default function ClubOfficers() {
         <Typography className={classes.title} variant="h1">Club Officers</Typography>
         <Typography>Club Chair - Brian Cornish</Typography>
         <Typography>Club Secretary - Barry Hymer</Typography>
-        <img className={classes.image} src="/BarryHymerSmall.jpg" />
+        <img className={classes.image} src="/BarryHymerSmall.jpg" alt="barryh" />
         <Typography>Club Treasurer - David Fatkin</Typography>
-        <img className={classes.image} src="/DavidFatkinSmall.jpg" />
+        <img className={classes.image} src="/DavidFatkinSmall.jpg" alt="davidf"/>
         <Typography>Dragons Team Captain - Jonathan Verden</Typography>
         <Typography>Club Communications Officer - Iain Walmsley</Typography>
         </div>
