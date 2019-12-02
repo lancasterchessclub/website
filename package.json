@@ -20,7 +20,7 @@
     "postbuild": "react-snap",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && node scripts/create-sitemap.js",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

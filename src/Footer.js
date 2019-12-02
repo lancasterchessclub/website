@@ -25,7 +25,8 @@ const useStyles = makeStyles({
       margin: 'auto',
       padding: '100',
       justifyContent: 'center',
-      paddingBottom: '30px'
+      paddingBottom: '30px',
+      paddingTop: '30px',
     },
     cardContainer: {
       display: 'flex',
@@ -71,7 +72,6 @@ export default function Footer() {
     
     return (
         <div className={classes.contentContainer}>
-        <Typography className={classes.title} variant="h5">CLUB NIGHTS</Typography>
         <div className={classes.cardContainer}>
           {cards.map(card => (
             <div className={classes.cardBox}>
