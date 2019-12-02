@@ -51,17 +51,17 @@ const useStyles = makeStyles({
 const cards = [
     {
         title: 'WHERE',
-        text: 'The club meets at the Reform Club, and meets on the top floor the room on the left at the top of the stairs) . Address – 1 Great John Street, Lancaster, LA1 1NQ, UK. Telephone: 01524 63541',
+        text: 'The club meets at the Reform Club, on the top floor. Lancaster, LA1 1NQ, UK. Telephone: 01524 63541',
         icon: <CalendarTodayIcon color='white'/>
     },
     {
         title: 'WHEN',
-        text: 'The Club is open on Tuesdays (7 pm onwards) and Thursdays (7.30 pm onwards) from late September until the end of April. There is no difference between these nights but new members are encouraged to come on Tuesday for a warm welcome!',
+        text: 'The Club meets Tuesdays (7 pm onwards) from late September until the end of April.',
         icon: <LocationOnIcon />
     },
     {
         title: 'WHAT',
-        text: 'Fun and casual games (with the exception of match nights), all adults welcome.',
+        text: 'Fun and casual games (with the exception of match nights), all ages are welcome.',
         icon: <EmojiPeopleIcon />
     }
 ];

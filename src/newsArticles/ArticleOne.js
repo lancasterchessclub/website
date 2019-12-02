@@ -31,14 +31,14 @@ export default function ArticleOne() {
       </Typography>
       <Typography className={classes.article} variant="body2">
           The Dragons have made a rollercoaster start to the season
-          consisting of a disappointing 4-0 loss to Morecambe 'B', followed by
-          an excellent bounceback to draw Morecambe 'A' 2-2 thanks to excellent 
-          wins by Danny and Lawrence.<br/><br/>
+          consisting of a disappointing 0.5-3.5 loss to Morecambe 'B', followed by
+          an excellent bounceback to draw Morecambe 'A' 2-2 thanks to wins by Danny
+          and Lawrence.<br/><br/>
           Most recently the Dragons defeated Bare Village with a score of 4-0,
           where Barry, Danny, Lawrence & Jonathan all registered wins to give us
           our first victory of the season.<br/><br/>
           Next up is a tough fixture versus University 'A' in one of the
-          the hardest fixture of the year.<br/><br/>
+          the hardest matches of the year.<br/><br/>
       </Typography>
       <img className={classes.image} src="/Dragons1920.JPG"/>
       <Typography variant="body2">
