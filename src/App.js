@@ -15,7 +15,7 @@ import History from './History';
 
 export default function Site() {
   return (
-    <HashRouter basename='/'>
+    <Router basename='/'>
       <Header />
       <HeroBar />
       <div>
@@ -36,6 +36,6 @@ export default function Site() {
         </Switch>
         <Footer />
       </div>
-    </HashRouter>
+    </Router>
   );
 }
