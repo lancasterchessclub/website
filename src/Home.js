@@ -26,7 +26,7 @@ export default function Home() {
     return (
       <div className={classes.center}>
       <div className={classes.title}>
-        <Typography className={classes.title} variant="h1">Welcome to the Lancaster Chess Club</Typography>
+        <Typography className={classes.title} variant="h1">The Lancaster Chess Club</Typography>
       </div>
       <div className={classes.description}>
         <Typography className={classes.description}>
