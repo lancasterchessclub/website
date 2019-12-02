@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography } from '@material-ui/core';
+import theme from './theme';
 
 const useStyles = makeStyles({
   pictures: {
@@ -18,6 +19,7 @@ const useStyles = makeStyles({
   title: {
     paddingTop: '20px',
     paddingBottom: '20px',
+    fontSize: theme.typography.title.fontSize,
   },
   officer: {
     display: 'inline',
@@ -29,7 +31,7 @@ export default function ClubOfficers() {
     return (
       <div className={classes.pictures}>
         <div className={classes.container}>
-        <Typography className={classes.title} variant="h4">Club Officers</Typography>
+        <Typography className={classes.title} variant="h1">Club Officers</Typography>
         <Typography>Club Chair - Brian Cornish</Typography>
         <Typography>Club Secretary - Barry Hymer</Typography>
         <img className={classes.image} src="/BarryHymerSmall.jpg" />

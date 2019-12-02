@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import { textAlign } from '@material-ui/system';
+import theme from './theme';
 
 const useStyles = makeStyles({
     center: {
@@ -10,6 +10,7 @@ const useStyles = makeStyles({
     },
     title: {
       paddingTop: '20px',
+      fontSize: theme.typography.title.fontSize,
     },
     description: {
       width: '100%',
@@ -25,7 +26,7 @@ export default function Home() {
     return (
       <div className={classes.center}>
       <div className={classes.title}>
-        <Typography variant="h4">Welcome to the Lancaster Chess Club</Typography>
+        <Typography className={classes.title} variant="h1">Welcome to the Lancaster Chess Club</Typography>
       </div>
       <div className={classes.description}>
         <Typography className={classes.description}>

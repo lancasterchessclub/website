@@ -4,6 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import theme from './theme';
 
 const useStyles = makeStyles({
      container: {
@@ -20,6 +21,7 @@ const useStyles = makeStyles({
     },
     title: {
         paddingTop: '20px',
+        fontSize: theme.typography.title.fontSize,
     }
 });
 
