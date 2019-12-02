@@ -27,9 +27,7 @@ export default function ArticleOne() {
     <div className={classes.container}>
       <Typography className={classes.article} variant="h4">League Roundup</Typography>
       <Typography className={classes.article}>
-          30th November 2019
-      </Typography>
-      <Typography className={classes.article} variant="body2">
+          30th November 2019<br/>
           The Dragons have made a rollercoaster start to the season
           consisting of a disappointing 0.5-3.5 loss to Morecambe 'B', followed by
           an excellent bounceback to draw Morecambe 'A' 2-2 thanks to wins by Danny
