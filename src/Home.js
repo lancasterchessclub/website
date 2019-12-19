@@ -36,9 +36,9 @@ export default function Home() {
           here.
         </Typography>
         <Typography className={classes.description}>
-          We meet twice weekly and over the course of the year highlights range from
-          the round robin club chess championship (90 minutes), to the rapid play championship,
-          as well as occasional blitz chess tournaments. And for players who prefer to 
+          We meet weekly and over the course of the year highlights range from the round robin
+          club chess championship (90 minutes), to the rapid play championship,
+          as well as occasional blitz chess tournaments. And for players who prefer to
           play casual games club nights always offer the opportunity to have a game.
         </Typography>
         <Typography className={classes.description}>
