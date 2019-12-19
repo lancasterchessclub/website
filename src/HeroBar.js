@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   NavLink
 } from "react-router-dom";
 import Typography from '@material-ui/core/Typography';
