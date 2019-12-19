@@ -14,6 +14,9 @@ const useStyles = makeStyles({
     title: {
       paddingTop: '20px',
       fontSize: theme.typography.title.fontSize,
+    },
+    articles: {
+      display: 'block',
     }
   });
  
@@ -22,8 +25,10 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
-      <ArticleTwo/>
-      <ArticleOne/>
+      <div className={classes.articles}>
+        <ArticleTwo/><br/>
+        <ArticleOne/>
+      </div>
     </div>
   );
 }
