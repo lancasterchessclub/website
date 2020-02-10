@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import ArticleOne from './newsArticles/ArticleOne';
 import theme from './theme';
 import ArticleTwo from './newsArticles/ArticleTwo';
+import ArticleThree from './newsArticles/ArticleThree';
 
 const useStyles = makeStyles({
     container: {
@@ -22,6 +23,7 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
+      <ArticleThree/>
       <ArticleTwo/>
       <ArticleOne/>
     </div>

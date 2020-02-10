@@ -24,6 +24,7 @@ const useStyles = makeStyles({
       background: '#ff4848',
       margin: 'auto',
       padding: '100',
+      width: '100%',
       justifyContent: 'center',
       paddingBottom: '30px',
       paddingTop: '30px',
