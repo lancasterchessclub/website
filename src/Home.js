@@ -41,8 +41,8 @@ export default function Home() {
           play casual games, club nights always offer the opportunity to have a game.
         </Typography>
         <Typography className={classes.description}>
-          If this sounds good, please see the information for club nights below - we look
-          forward to welcoming you soon!
+          If this sounds good, please see the information for club nights below - please
+          do get in touch via e-mail and we look forward to welcoming you soon!
         </Typography>
       </div>
       </div>

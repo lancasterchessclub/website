@@ -53,7 +53,7 @@ const useStyles = makeStyles({
 const cards = [
     {
         title: 'WHERE',
-        text: 'The club meets at the Reform Club, on the top floor. Lancaster, LA1 1NQ, UK. Telephone: 01524 63541',
+        text: 'The club meets at the Reform Club, on the top floor. Lancaster, LA1 1NQ, UK. Contact: hymerdawson@aol.com',
         icon: <CalendarTodayIcon color='white'/>
     },
     {
