@@ -29,15 +29,15 @@ export default function ArticleThree() {
       <Typography className={classes.article}>
           10th February 2020<br/>
           The club met for its annual dinner at the Golden Dragon where a good
-          night was enjoyed by all. Although there were a number of late drop
-          outs due to illness the turnout was good and the empty plates are
+          night was enjoyed by all. Despite illness striking a few who unfortunately
+          couldn't make it, there was a good turnout and the empty plates are
           a testament to the food. <br/><br/>
 
-          The league has continued with an excellent win against University 'B'
-          thanks to wins by Danny & John and a heroic draw by Barry which I'm 
-          reliably told was quite something! With two games remaining against
-          Kendal and University 'A', all is still to play for. Both will be
-          incredibly tough tests however.<br/><br/>
+          The Dragons have continued their good league form with an excellent win
+          against University 'B' thanks to wins by Danny & John and a heroic draw
+          by Barry which I'm reliably told was quite something!
+          With two games remaining against Kendal and University 'A', all is still
+          to play for. Both will be incredibly tough tests however.<br/><br/>
       </Typography>
       <img className={classes.image} alt="club-dinner" src="/AnnualDinner1920.jpg"/>
       <Typography variant="body2">
