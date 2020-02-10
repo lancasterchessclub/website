@@ -39,7 +39,7 @@ export default function ArticleThree() {
           Kendal and University 'A', all is still to play for. Both will be
           incredibly tough tests however.<br/><br/>
       </Typography>
-      <img className={classes.image} src="/AnnualDinner1920.jpg"/>
+      <img className={classes.image} alt="club-dinner" src="/AnnualDinner1920.jpg"/>
       <Typography variant="body2">
           A good turnout for the annual dinner at The Golden Dragon.
       </Typography>
