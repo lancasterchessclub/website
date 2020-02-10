@@ -15,6 +15,9 @@ const useStyles = makeStyles({
     title: {
       paddingTop: '20px',
       fontSize: theme.typography.title.fontSize,
+    },
+    articles: {
+      display: 'block',
     }
   });
  

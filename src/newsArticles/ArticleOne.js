@@ -38,7 +38,7 @@ export default function ArticleOne() {
           Next up is a tough fixture versus University 'A' in one of the
           the hardest matches of the year.<br/><br/>
       </Typography>
-      <img className={classes.image} src="/Dragons1920.JPG"/>
+      <img className={classes.image} src="/Dragons1920.JPG" alt="dragons-morecambe-match"/>
       <Typography variant="body2">
           From left to right: Danny, Lawrence, Barry & Jonathan.
       </Typography>
