@@ -10,6 +10,7 @@ const useStyles = makeStyles({
     fontSize: '20px',
     justifyContent: 'center',
     display: 'flex',
+    width: '100%',
   },
   text: {
     color: 'white',

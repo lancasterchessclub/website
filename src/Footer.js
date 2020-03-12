@@ -21,6 +21,7 @@ const useStyles = makeStyles({
       textAlign: 'center'
     },
     contentContainer: {
+      boxShadow: '0 50vh 0 50vh #ff4848',
       background: '#ff4848',
       margin: 'auto',
       padding: '100',
