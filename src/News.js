@@ -1,10 +1,13 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import ArticleOne from './newsArticles/ArticleOne';
 import theme from './theme';
+import ArticleOne from './newsArticles/ArticleOne';
 import ArticleTwo from './newsArticles/ArticleTwo';
 import ArticleThree from './newsArticles/ArticleThree';
+import ArticleFour from './newsArticles/ArticleFour';
+import ArticleFive from './newsArticles/ArticleFive';
+
 
 const useStyles = makeStyles({
     container: {
@@ -26,6 +29,8 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
+      <ArticleFive/>
+      <ArticleFour/>
       <ArticleThree/>
       <ArticleTwo/>
       <ArticleOne/>
