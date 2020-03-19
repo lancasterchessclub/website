@@ -7,6 +7,7 @@ import ArticleTwo from './newsArticles/ArticleTwo';
 import ArticleThree from './newsArticles/ArticleThree';
 import ArticleFour from './newsArticles/ArticleFour';
 import ArticleFive from './newsArticles/ArticleFive';
+import ArticleSix from './newsArticles/ArticleSix'; 
 
 
 const useStyles = makeStyles({
@@ -29,6 +30,7 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
+      <ArticleSix md="ArticleSix" iframe="https://lichess.org/study/embed/XkJ9Opfh/12jYn6rH" />
       <ArticleFive/>
       <ArticleFour/>
       <ArticleThree/>
