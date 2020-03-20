@@ -41,7 +41,7 @@ export default function ArticleFour() {
           as can be seen below (click on match in the bottom right for full annotations), 
           and his play then got progressively weaker as the tournament progressed. <br/><br/>
       </Typography>
-      <Iframe url="https://lichess.org/study/embed/iD9MHcqE/125NW5O4"
+      <Iframe url="https://lichess.org/study/embed/iD9MHcqE/2bWgijfl"
         width="600"
         height="371"
         id="myId"
