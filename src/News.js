@@ -7,7 +7,7 @@ import ArticleTwo from './newsArticles/ArticleTwo';
 import ArticleThree from './newsArticles/ArticleThree';
 import ArticleFour from './newsArticles/ArticleFour';
 import ArticleFive from './newsArticles/ArticleFive';
-
+import ArticleSix from './newsArticles/ArticleSix';
 
 const useStyles = makeStyles({
     container: {
@@ -29,6 +29,7 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
+      <ArticleSix/>
       <ArticleFive/>
       <ArticleFour/>
       <ArticleThree/>
