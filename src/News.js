@@ -8,6 +8,7 @@ import ArticleThree from './newsArticles/ArticleThree';
 import ArticleFour from './newsArticles/ArticleFour';
 import ArticleFive from './newsArticles/ArticleFive';
 import ArticleSix from './newsArticles/ArticleSix';
+import ArticleSeven from './newsArticles/ArticleSeven';
 
 const useStyles = makeStyles({
     container: {
@@ -29,6 +30,7 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
+      <ArticleSeven/>
       <ArticleSix/>
       <ArticleFive/>
       <ArticleFour/>
