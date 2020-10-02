@@ -1,7 +1,6 @@
 import React, { Component} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ReactMarkdown from 'react-markdown';
-import Article from './ArticleTwo.md';
 
 const useStyles = makeStyles({
     container: {
@@ -14,7 +13,7 @@ const useStyles = makeStyles({
     },
   });
 
-class ArticleTwo extends Component {
+class ArticleMD extends Component {
   constructor() {
     super();
     this.state = { markdown: '' };
@@ -22,13 +21,20 @@ class ArticleTwo extends Component {
 
   componentWillMount() {
     // Get the contents from the Markdown file and put them in the React state, so we can reference it in render() below.
-    fetch(Article).then(res => res.text()).then(text => this.setState({ markdown: text }));
+    const article = require(`${this.props.path}`);
+    fetch(article).then(res => res.text()).then(text => this.setState({ markdown: text }));
   }
 
   render() {
+    const styles = {
+      paddingBottom: '20px'
+    };
+
     const { markdown } = this.state;
-    return <ReactMarkdown source={markdown} />;
+    return <div style={styles}>
+        <ReactMarkdown source={markdown} escapeHtml={false}/>
+      </div>;
   }
 }
 
-export default ArticleTwo;
+export default ArticleMD;

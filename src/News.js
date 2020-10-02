@@ -1,29 +1,39 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import ArticleOne from './newsArticles/ArticleOne';
 import theme from './theme';
-import ArticleTwo from './newsArticles/ArticleTwo';
+import Article from './newsArticles/ArticleMD';
 
 const useStyles = makeStyles({
     container: {
-      width: '100%',
-      alignItems: 'center',
-      textAlign: 'center',
+      width: '70%',
+      marginLeft: 'auto',
+      marginRight: 'auto',
     },
     title: {
       paddingTop: '20px',
+      textAlign: 'center',
       fontSize: theme.typography.title.fontSize,
-    }
+    },
   });
- 
+
 export default function News() {
   const classes = useStyles();
+
+  const files = [
+    './7.md',
+    './6.md',
+    './5.md',
+    './4.md',
+    './3.md',
+    './2.md',
+    './1.md',
+  ];
+
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
-      <ArticleOne/>
-      <ArticleTwo/>
+      {files.map(file => <Article path={file}/>)}
     </div>
   );
 }
