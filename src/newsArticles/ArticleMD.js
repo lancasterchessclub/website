@@ -2,17 +2,6 @@ import React, { Component} from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import ReactMarkdown from 'react-markdown';
 
-const useStyles = makeStyles({
-    container: {
-      maxWidth: '700px',
-      display: 'inline-block',
-      paddingLeft: '2%',
-      paddingRight: '2%',
-      paddingTop: '20px',
-      paddingBottom: '20px',
-    },
-  });
-
 class ArticleMD extends Component {
   constructor() {
     super();
