@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles({
     container: {
-      background: '#ff4848',
+      background: '#ff1b2e',
       fontSize: '20px',
       justifyContent: 'center',
       display: 'flex',

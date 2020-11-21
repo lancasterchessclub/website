@@ -21,8 +21,8 @@ const useStyles = makeStyles({
       textAlign: 'center'
     },
     contentContainer: {
+      background: '#ff1b2e',
       boxShadow: '0 50vh 0 50vh #ff4848',
-      background: '#ff4848',
       margin: 'auto',
       padding: '100',
       width: '100%',
@@ -45,7 +45,7 @@ const useStyles = makeStyles({
       maxWidth: '400',
     },
     cardBox: {
-      background: '#ff4848',
+      background: '#ff1b2e',
       maxWidth: '400px',
       textAlign: 'center',
     }
@@ -71,7 +71,7 @@ const cards = [
 
 export default function Footer() {
     const classes = useStyles();
-    
+
     return (
         <div className={classes.contentContainer}>
         <div className={classes.cardContainer}>
@@ -82,7 +82,7 @@ export default function Footer() {
                   <Typography className={classes.cardTitle}>{card.title}</Typography>
                     {card.icon}
                   <Typography className={classes.cardText}>{card.text}</Typography>
-                </CardContent> 
+                </CardContent>
               </Card>
             </div>
           ))}

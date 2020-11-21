@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 
 const useStyles = makeStyles({
   toolbar: {
-    background: '#ff4848',
+    background: '#ff1b2e',
     fontSize: '20px',
     justifyContent: 'center',
     display: 'flex',

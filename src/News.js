@@ -2,41 +2,38 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import theme from './theme';
-import ArticleOne from './newsArticles/ArticleOne';
-import ArticleTwo from './newsArticles/ArticleTwo';
-import ArticleThree from './newsArticles/ArticleThree';
-import ArticleFour from './newsArticles/ArticleFour';
-import ArticleFive from './newsArticles/ArticleFive';
-import ArticleSix from './newsArticles/ArticleSix';
-import ArticleSeven from './newsArticles/ArticleSeven';
+import Article from './newsArticles/ArticleMD';
 
 const useStyles = makeStyles({
     container: {
-      width: '100%',
-      alignItems: 'center',
-      textAlign: 'center',
+      width: '70%',
+      marginLeft: 'auto',
+      marginRight: 'auto',
     },
     title: {
       paddingTop: '20px',
+      textAlign: 'center',
       fontSize: theme.typography.title.fontSize,
     },
-    articles: {
-      display: 'block',
-    }
   });
- 
+
 export default function News() {
   const classes = useStyles();
+
+  const files = [
+    './7.md',
+    './6.md',
+    './5.md',
+    './4.md',
+    './3.md',
+    './2.md',
+    './1.md',
+  ];
+
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
-      <ArticleSeven/>
-      <ArticleSix/>
-      <ArticleFive/>
-      <ArticleFour/>
-      <ArticleThree/>
-      <ArticleTwo/>
-      <ArticleOne/>
+      {files.map(file => <Article path={file}/>)}
     </div>
   );
 }
