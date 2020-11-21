@@ -1,5 +1,4 @@
 import React, { Component} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import ReactMarkdown from 'react-markdown';
 
 class ArticleMD extends Component {
