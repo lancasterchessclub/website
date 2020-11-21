@@ -22,8 +22,10 @@ const useStyles = makeStyles({
     },
     contentContainer: {
       background: '#ff1b2e',
+      boxShadow: '0 50vh 0 50vh #ff4848',
       margin: 'auto',
       padding: '100',
+      width: '100%',
       justifyContent: 'center',
       paddingBottom: '30px',
       paddingTop: '30px',
@@ -52,7 +54,7 @@ const useStyles = makeStyles({
 const cards = [
     {
         title: 'WHERE',
-        text: 'The club meets at the Reform Club, on the top floor. Lancaster, LA1 1NQ, UK. Telephone: 01524 63541',
+        text: 'The club meets at the Reform Club, on the top floor. Lancaster, LA1 1NQ, UK. Contact: hymerdawson@aol.com',
         icon: <CalendarTodayIcon color='white'/>
     },
     {
@@ -69,7 +71,7 @@ const cards = [
 
 export default function Footer() {
     const classes = useStyles();
-    
+
     return (
         <div className={classes.contentContainer}>
         <div className={classes.cardContainer}>
@@ -80,7 +82,7 @@ export default function Footer() {
                   <Typography className={classes.cardTitle}>{card.title}</Typography>
                     {card.icon}
                   <Typography className={classes.cardText}>{card.text}</Typography>
-                </CardContent> 
+                </CardContent>
               </Card>
             </div>
           ))}

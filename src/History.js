@@ -29,7 +29,7 @@ export default function History() {
     const classes = useStyles();
     return (
         <div className={classes.container}>
-            <Typography className={classes.title} variant="h4">History</Typography>
+            <Typography className={classes.title} variant="h1">History</Typography>
             <Typography className={classes.summary}>
                 Below is an excellent brief history of the club stretching back
                 into the 19th century penned by Lawrence Bland.

@@ -1,9 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {
-  BrowserRouter as Router,
-  NavLink
-} from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 
@@ -13,6 +10,7 @@ const useStyles = makeStyles({
     fontSize: '20px',
     justifyContent: 'center',
     display: 'flex',
+    width: '100%',
   },
   text: {
     color: 'white',
