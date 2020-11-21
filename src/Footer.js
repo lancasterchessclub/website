@@ -21,7 +21,7 @@ const useStyles = makeStyles({
       textAlign: 'center'
     },
     contentContainer: {
-      background: '#ff4848',
+      background: '#ff1b2e',
       margin: 'auto',
       padding: '100',
       justifyContent: 'center',
@@ -43,7 +43,7 @@ const useStyles = makeStyles({
       maxWidth: '400',
     },
     cardBox: {
-      background: '#ff4848',
+      background: '#ff1b2e',
       maxWidth: '400px',
       textAlign: 'center',
     }
