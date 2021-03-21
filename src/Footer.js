@@ -6,6 +6,7 @@ import LocationOnIcon from '@material-ui/icons/LocationOn';
 import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import theme from './theme';
 
 const useStyles = makeStyles({
     image: {
@@ -21,7 +22,7 @@ const useStyles = makeStyles({
       textAlign: 'center'
     },
     contentContainer: {
-      background: '#ff1b2e',
+      background: theme.background,
       boxShadow: '0 50vh 0 50vh #ff4848',
       margin: 'auto',
       padding: '100',
@@ -45,7 +46,7 @@ const useStyles = makeStyles({
       maxWidth: '400',
     },
     cardBox: {
-      background: '#ff1b2e',
+      background: theme.background,
       maxWidth: '400px',
       textAlign: 'center',
     }

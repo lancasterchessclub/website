@@ -5,7 +5,8 @@ const theme = createMuiTheme({
       title: {
         fontSize: 32,
       }
-    }
+    },
+    background: '#EA494B'
 });
 
     // const theme = createMuiTheme({

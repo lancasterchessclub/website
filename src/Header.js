@@ -1,9 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import theme from './theme';
 
 const useStyles = makeStyles({
     container: {
-      background: '#ff1b2e',
+      background: theme.background,
       fontSize: '20px',
       justifyContent: 'center',
       display: 'flex',
