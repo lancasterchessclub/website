@@ -30,6 +30,8 @@ const useStyles = makeStyles({
       justifyContent: 'center',
       paddingBottom: '30px',
       paddingTop: '30px',
+      position: 'fixed',
+      bottom: 0,
     },
     cardContainer: {
       display: 'flex',
