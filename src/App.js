@@ -33,8 +33,8 @@ export default function Site() {
             <History />
           </Route>
         </Switch>
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }

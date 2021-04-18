@@ -35,7 +35,7 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
-      {files.map(file => <Article path={file}/>)}
+      {files.map(file => <Article path={file} key={file}/>)}
     </div>
   );
 }

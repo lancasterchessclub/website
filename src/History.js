@@ -4,16 +4,20 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import Grid from '@material-ui/core/Grid';
+import Carousel from 'react-material-ui-carousel';
 import theme from './theme';
+import { AGMmetaData } from './dataFiles/AGMs';
 
 const useStyles = makeStyles({
-     container: {
+    container: {
         textAlign: 'center',
         paddingBottom: '40px',
     },
     summary: {
         paddingTop: '20px',
-        paddingBottom: '40px',
+        paddingBottom: '10px',
+        maxWidth: '70%',
+        margin: '0 auto',
     },
     history: {
         display: 'block',
@@ -22,6 +26,12 @@ const useStyles = makeStyles({
     title: {
         paddingTop: '20px',
         fontSize: theme.typography.title.fontSize,
+    },
+    agmPhotos: {
+        textAlign: 'center',
+        justifyContent: 'center',
+        justifyItems: 'center',
+        paddingBottom: '20px',
     }
 });
 
@@ -30,6 +40,40 @@ export default function History() {
     return (
         <div className={classes.container}>
             <Typography className={classes.title} variant="h1">History</Typography>
+            <div className={classes.agmPhotos}>
+                <Typography className={classes.summary}>
+                    Find below a set of fantastic pictures provided by Lawrence showing the awarding
+                    of the championship trophy at AGM meetings. Many faces are still present and
+                    recognised by members today and it shows the rich history that we are lucky to have.
+                </Typography>
+                <Carousel navButtonsAlwaysVisible={true}>
+                    {
+                        AGMmetaData.map((item, i) =>
+                            <div>
+                                <Grid
+                                    container
+                                    spacing={0}
+                                    direction="column"
+                                    alignItems="center"
+                                    justify="center"
+                                >
+                                    <Grid alignContent='center' item xs={8} key="history">
+                                        <Card raised="true" className={classes.history}>
+                                            <CardContent>
+                                                <center>
+                                                    <Typography textAlign='center'> {item.name} </Typography>
+                                                </center>
+                                                <img width="100%" src={item.path} alt={item.name} />
+                                            </CardContent>
+                                        </Card>
+                                    </Grid>
+                                </Grid>
+                            </div>
+                        )
+                    }
+                </Carousel>
+            </div>
+            <Typography className={classes.title} variant="h1">Club History</Typography>
             <Typography className={classes.summary}>
                 Below is an excellent brief history of the club stretching back
                 into the 19th century penned by Lawrence Bland.
@@ -41,8 +85,8 @@ export default function History() {
                 alignItems="center"
                 justify="center"
                 style={{ minHeight: '100vh' }}
-                >
-                <Grid alignContent='center' item xs={8}>
+            >
+                <Grid alignContent='center' item xs={8} key="history">
                     <Card raised="true" className={classes.history}>
                         <CardContent>
                             <Typography>
@@ -63,7 +107,7 @@ export default function History() {
                                 continuing there until February 1953, this is now part of McDonalds.<br /><br />
 
                                 The club closed down for the whole of World War Two, a Post War Revival
-                                Meeting was held on October 1st 1945,which also celebrated the jubilee
+                                Meeting was held on October 1st 1945,w  hich also celebrated the jubilee
                                 of the club. Having to move from above Tylers shoe shop owing to
                                 structural and other alterations planned by the owners, the spent the
                                 end of 1952-53 & 1953-54 seasons at the Friends Hall in Fenton Street,
@@ -107,7 +151,6 @@ export default function History() {
                     </Card>
                 </Grid>
             </Grid>
-
         </div>
     );
 }

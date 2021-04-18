@@ -29,9 +29,7 @@ const useStyles = makeStyles({
       width: '100%',
       justifyContent: 'center',
       paddingBottom: '30px',
-      paddingTop: '30px',
-      position: 'fixed',
-      bottom: 0,
+      paddingTop: '30px'
     },
     cardContainer: {
       display: 'flex',
@@ -79,7 +77,7 @@ export default function Footer() {
         <div className={classes.contentContainer}>
         <div className={classes.cardContainer}>
           {cards.map(card => (
-            <div className={classes.cardBox}>
+            <div className={classes.cardBox} key={card.title}>
               <Card className={classes.cardBox}>
                 <CardContent>
                   <Typography className={classes.cardTitle}>{card.title}</Typography>

@@ -32,7 +32,8 @@ export default function ClubOfficers() {
       <div className={classes.pictures}>
         <div className={classes.container}>
         <Typography className={classes.title} variant="h1">Club Officers</Typography>
-        <Typography>Club Chair - Brian Cornish</Typography>
+        <Typography>Club Chair - Lawrence Bland</Typography>
+        <img className={classes.image} src="/LawrenceBlandSmall.jpg" alt="lawrenceb" />
         <Typography>Club Secretary - Barry Hymer</Typography>
         <img className={classes.image} src="/BarryHymerSmall.jpg" alt="barryh" />
         <Typography>Club Treasurer - David Fatkin</Typography>
