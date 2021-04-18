@@ -46,7 +46,10 @@ export default function History() {
                     of the championship trophy at AGM meetings. Many faces are still present and
                     recognised by members today and it shows the rich history that we are lucky to have.
                 </Typography>
-                <Carousel navButtonsAlwaysVisible={true}>
+                <Carousel 
+                    navButtonsAlwaysVisible={true}
+                    interval="10000"
+                >
                     {
                         AGMmetaData.map((item, i) =>
                             <div>
