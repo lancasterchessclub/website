@@ -29,10 +29,9 @@ export default function Home() {
         <Typography className={classes.title} variant="h1">A Friendly Chess Club in the Heart of Lancaster</Typography>
       </div>
       <div className={classes.description}>
-        <h4>Update 21/03/21: We are unfortunately still closed due the ongoing COVID
-          situation, but are hopeful that the club will continue as per usual from the beginning
-          of the next season starting in September. Any update will be made public here and to
-          members via e-mail.
+        <h4>Update 05/09/21: The new season is now happily approaching. The resumption of activity
+          will take place on Tuesday September 21st at 7pm with the AGM followed by our first
+          clubnight. We look forward to seeing everyone again then.
         </h4>
         <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which dates back
