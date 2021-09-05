@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-SITEMAP: https://lancasterchessclub.co.uk/sitemap.txt

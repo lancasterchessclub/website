@@ -1,1 +1,0 @@
-### Lancaster Chess Club
