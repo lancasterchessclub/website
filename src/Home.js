@@ -29,8 +29,8 @@ export default function Home() {
         <Typography className={classes.title} variant="h1">A Friendly Chess Club in the Heart of Lancaster</Typography>
       </div>
       <div className={classes.description}>
-        <h4>Update 30/09/21: The new season has now begun and we are now meeting weekly
-          as usual a the Reform club on Tuesday evenings.
+        <h4>Update 30/09/21: The new season has begun and we are now meeting weekly
+          as usual at the Reform club on Tuesday evenings. We look forward to seeing you there.
         </h4>
         <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which dates back
