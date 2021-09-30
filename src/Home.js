@@ -29,9 +29,8 @@ export default function Home() {
         <Typography className={classes.title} variant="h1">A Friendly Chess Club in the Heart of Lancaster</Typography>
       </div>
       <div className={classes.description}>
-        <h4>Update 05/09/21: The new season is now happily approaching. The resumption of activity
-          will take place on Tuesday September 21st at 7pm with the AGM followed by our first
-          clubnight. We look forward to seeing everyone again then.
+        <h4>Update 30/09/21: The new season has now begun and we are now meeting weekly
+          as usual a the Reform club on Tuesday evenings.
         </h4>
         <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which dates back
@@ -42,7 +41,7 @@ export default function Home() {
           We meet weekly, and over the course of the year, highlights range from
           the round robin club chess championship (90 minutes), to the rapid play championship,
           as well as occasional blitz chess tournaments. And for players who prefer to 
-          play casual games, club nights always offer the opportunity to have a game.
+          play casually, club nights always offer the opportunity to have a game.
         </Typography>
         <Typography className={classes.description}>
           If this sounds good, please see the information for club nights below - please
