@@ -40,6 +40,7 @@ export default function ClubOfficers() {
         <img className={classes.image} src="/DavidFatkinSmall.jpg" alt="davidf"/>
         <Typography>Dragons Team Captain - Jonathan Verden</Typography>
         <Typography>Club Communications Officer - Iain Walmsley</Typography>
+        <img className={classes.image} src="/IainWalmsleySmall.jpg" alt="iainw"/>
         </div>
       </div>
     );

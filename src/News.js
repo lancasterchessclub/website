@@ -21,6 +21,8 @@ export default function News() {
   const classes = useStyles();
 
   const files = [
+    './14.md',
+    './13.md',
     './12.md',
     './11.md',
     './10.md',
