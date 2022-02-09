@@ -29,7 +29,7 @@ export default function Home() {
         <Typography className={classes.title} variant="h1">A Friendly Chess Club in the Heart of Lancaster</Typography>
       </div>
       <div className={classes.description}>
-        <h4>Update 30/01/22: We are now settled in our new base at the Lancaster Bridge Club premesis
+        <h4>Update 30/01/22: We are now settled in our new base at the Lancaster Bridge Club premises
           at the usual time of 7pm on Tuesdays, make sure you use the smaller door on the right when
           you arrive. Additionally, Richard has organised a more informal weekly 
           meet at the Jailor's Barrel, noon on Sundays. All are welcome (but please bring your own set)!
