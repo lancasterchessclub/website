@@ -55,7 +55,7 @@ const useStyles = makeStyles({
 const cards = [
     {
         title: 'WHERE',
-        text: 'The club meets at the Lancaster Bridge Club, 3/5 Chapel Street, Lancaster LA1 1NZ. Contact: hymerdawson@aol.com',
+        text: 'The club meets at the Lancaster Bridge Club, 3/5 Chapel Street, Lancaster LA1 1NZ. Contact: lancasterchessclub@hotmail.com',
         icon: <CalendarTodayIcon color='white'/>
     },
     {
