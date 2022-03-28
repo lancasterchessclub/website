@@ -12,6 +12,7 @@ import Header from './Header';
 import Footer from './Footer';
 import History from './History';
 
+
 export default function Site() {
   return (
     <Router basename='/'>
