@@ -1,1 +1,1 @@
-### Lancaster Chess Club
+### Lancaster Chess Club ###
