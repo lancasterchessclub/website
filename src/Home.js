@@ -29,10 +29,10 @@ export default function Home() {
         <Typography className={classes.title} variant="h1">A Friendly Chess Club in the Heart of Lancaster</Typography>
       </div>
       <div className={classes.description}>
-        <h4>Update 30/01/22: We are now settled in our new base at the Lancaster Bridge Club premises
-          at the usual time of 7pm on Tuesdays, make sure you use the smaller door on the right when
-          you arrive. Additionally, Richard has organised a more informal weekly 
-          meet at the Jailor's Barrel, noon on Sundays. All are welcome (but please bring your own set)!
+        <h4>
+          Update 12/6/22: See the following website for information regarding the Lancaster
+          Chess Congress taking place on the 18th of June - <a href="http://lancasterchesscongress.co.uk">
+          Congress</a>
         </h4>
         <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which dates back
