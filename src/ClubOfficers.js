@@ -35,8 +35,7 @@ export default function ClubOfficers() {
         <Typography>Club Chair - Lawrence Bland</Typography>
         <img className={classes.image} src="/LawrenceBlandSmall.jpg" alt="lawrenceb" />
         <br/>
-        <Typography>Club Secretary - Barry Hymer</Typography>
-        <img className={classes.image} src="/BarryHymerSmall.jpg" alt="barryh" />
+        <Typography>Club Secretary - Joss Waite</Typography>
         <br/>
         <Typography>Club Treasurer - David Fatkin</Typography>
         <img className={classes.image} src="/DavidFatkinSmall.jpg" alt="davidf"/>
