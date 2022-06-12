@@ -1,0 +1,32 @@
+li a {                                                                                                                                                                                                           
+  border-radius: 2px;                                                                                  
+  padding: 0.1rem 1rem;                                                                                
+  /* border: gray 1px solid;                                                                               */
+  cursor: pointer;                                                                                     
+}                                           
+li.break a {                                                                                           
+  border-color: transparent;                                                                           
+}
+li:hover a {
+  background-color: rgb(228, 224, 224);   
+}                                                                                                      
+li.pagination__link--active a {
+  background-color: #EA494B;
+  /* background-color: #0366d6;                                                                            */
+  border-color: transparent;                                                                           
+  color: white;                                                                                        
+  min-width: 32px;                      
+}                                                                                                      
+li.pagination__link--disabled a {                           
+  color: grey;                                                                                         
+}                                            
+li.disable,                                                                                            
+li.disabled a {                                   
+  cursor: default;                     
+}
+a.pagination__link {                                                                                                                                                                                                           
+    border-radius: 2px;                                                                                  
+    padding: 0.1rem 1rem;                                                                                
+    /* border: gray 1px solid;                                                                               */
+    cursor: pointer;                                                                                     
+}
