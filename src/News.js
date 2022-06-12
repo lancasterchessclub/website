@@ -4,21 +4,31 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import theme from './theme';
 import Article from './newsArticles/ArticleMD';
+import './News.css';
 
 const useStyles = makeStyles({
     container: {
       width: '70%',
       marginLeft: 'auto',
       marginRight: 'auto',
+      textAlign: 'center',
     },
     title: {
       paddingTop: '20px',
       textAlign: 'center',
       fontSize: theme.typography.title.fontSize,
     },
+    pagination: {
+      display: 'inline-flex',
+      textAlign: 'center',
+      alignContent: 'center',
+      outline: 'filled',
+      listStyle: 'none',
+    },
   });
 
 const files = [
+  './15.md',
   './14.md',
   './13.md',
   './12.md',
@@ -43,7 +53,8 @@ function Items({ currentItems }) {
   );
 }
 
-function PaginatedItems({ itemsPerPage }) {
+function PaginatedItems({ itemsPerPage, className }) {
+  const classes = useStyles();
   const [currentItems, setCurrentItems] = useState([]);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
@@ -63,12 +74,18 @@ function PaginatedItems({ itemsPerPage }) {
     <>
       <Items currentItems={currentItems} />
       <ReactPaginate
+        className={classes.pagination}
         breakLabel="..."
-        nextLabel="Next"
+        nextLabel=">"
         onPageChange={handlePageClick}
         pageRangeDisplayed={5}
         pageCount={pageCount}
-        previousLabel="Previous"
+        previousLabel="<"
+        containerClassName={classes.pagination}
+        previousLinkClassName={"pagination__link"}
+        nextLinkClassName={"pagination__link"}
+        disabledClassName={"pagination__link--disabled"}
+        activeClassName={"pagination__link--active"}
         renderOnZeroPageCount={null}
       />
     </>
@@ -81,7 +98,7 @@ export default function News() {
   return (
     <div className={classes.container}>
       <Typography className={classes.title} variant="h1">News</Typography>
-      <PaginatedItems itemsPerPage={4} />
+      <PaginatedItems itemsPerPage={1} />
     </div>
   );
 }

@@ -6,6 +6,7 @@
   "dependencies": {
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",
+    "@material-ui/lab": "^4.0.0-alpha.60",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-iframe": "^1.8.0",
