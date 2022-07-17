@@ -1,5 +1,6 @@
 import React, { Component} from 'react';
 import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 
 class ArticleMD extends Component {
   constructor() {
@@ -20,7 +21,7 @@ class ArticleMD extends Component {
 
     const { markdown } = this.state;
     return <div style={styles}>
-        <ReactMarkdown source={markdown} escapeHtml={false}/>
+        <ReactMarkdown rehypePlugins={[rehypeRaw]}>{markdown}</ReactMarkdown>
       </div>;
   }
 }

@@ -29,7 +29,8 @@ const useStyles = makeStyles({
       width: '100%',
       justifyContent: 'center',
       paddingBottom: '30px',
-      paddingTop: '30px'
+      paddingTop: '30px',
+      height: '20vh',
     },
     cardContainer: {
       display: 'flex',
@@ -60,7 +61,7 @@ const cards = [
     },
     {
         title: 'WHEN',
-        text: 'The Club meets Tuesdays (7 pm onwards) from late September until the end of April.',
+        text: 'The Club meets Tuesdays (7 pm onwards) all year round.',
         icon: <LocationOnIcon />
     },
     {

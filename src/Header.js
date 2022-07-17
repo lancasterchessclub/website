@@ -9,7 +9,7 @@ const useStyles = makeStyles({
       fontSize: '20px',
       justifyContent: 'center',
       display: 'flex',
-      height: '200px',
+      height: '15vh',
       //width: '100%'
     },
     image: {
@@ -21,7 +21,7 @@ export default function Header() {
     const classes = useStyles();
     return (
         <div id="chessClubLogo" className={classes.container}>
-          <img className={classes.image} src="/header_bg_transparent.png" alt="logo" />
+          <img className={classes.image} src="/header_bg_transparent_2.png" alt="logo" />
         </div>
     );
   }

@@ -110,7 +110,7 @@ export default function History() {
                                 continuing there until February 1953, this is now part of McDonalds.<br /><br />
 
                                 The club closed down for the whole of World War Two, a Post War Revival
-                                Meeting was held on October 1st 1945,w  hich also celebrated the jubilee
+                                Meeting was held on October 1st 1945, which also celebrated the jubilee
                                 of the club. Having to move from above Tylers shoe shop owing to
                                 structural and other alterations planned by the owners, the spent the
                                 end of 1952-53 & 1953-54 seasons at the Friends Hall in Fenton Street,

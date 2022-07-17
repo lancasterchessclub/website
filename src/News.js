@@ -12,6 +12,7 @@ const useStyles = makeStyles({
       marginLeft: 'auto',
       marginRight: 'auto',
       textAlign: 'center',
+      height: `calc(65vh - 100px)`,
     },
     title: {
       paddingTop: '20px',
