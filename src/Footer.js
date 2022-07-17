@@ -60,7 +60,7 @@ const cards = [
     },
     {
         title: 'WHEN',
-        text: 'The Club meets Tuesdays (7 pm onwards) from late September until the end of April.',
+        text: 'The Club meets Tuesdays (7 pm onwards) all year round.',
         icon: <LocationOnIcon />
     },
     {

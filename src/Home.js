@@ -30,9 +30,8 @@ export default function Home() {
       </div>
       <div className={classes.description}>
         <h4>
-          Update 12/6/22: See the following website for information regarding the Lancaster
-          Chess Congress taking place on the 18th of June - <a href="http://lancasterchesscongress.co.uk">
-          Congress</a>
+          Update 17/7/22: Following the move to the Bridge Club, the club is open year round. We look forward 
+          to welcoming you!
         </h4>
         <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which dates back

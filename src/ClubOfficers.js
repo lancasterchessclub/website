@@ -36,15 +36,18 @@ export default function ClubOfficers() {
         <img className={classes.image} src="/LawrenceBlandSmall.jpg" alt="lawrenceb" />
         <br/>
         <Typography>Club Secretary - Joss Waite</Typography>
+        <img className={classes.image} src="/JossWaiteSmall.jpg" alt="jossw"/>
         <br/>
         <Typography>Club Treasurer - David Fatkin</Typography>
         <img className={classes.image} src="/DavidFatkinSmall.jpg" alt="davidf"/>
         <br/>
         <Typography>Dragons Team Captain - Jonathan Verden</Typography>
+        <img className={classes.image} src="/JonVerdenSmall.jpg" alt="jonv"/>
         <Typography>Club Communications Officer - Iain Walmsley</Typography>
         <img className={classes.image} src="/IainWalmsleySmall.jpg" alt="iainw"/>
         <br/>
         <Typography>Club Media Officer - Dan Holden</Typography>
+        <img className={classes.image} src="/DanHoldenSmall.jpg" alt="danh"/>
         </div>
       </div>
     );
