@@ -32,7 +32,7 @@ export default function Congress() {
         <section>
           <h3>Previous</h3>
           <ul className={classes.list}>
-            <li><a href="http://lancasterchesscongress.co.uk/" target="_blank">18th June 2022</a></li>
+            <li><a href="/congress-20220618.html">18th June 2022</a></li>
           </ul>
         </section>
 
