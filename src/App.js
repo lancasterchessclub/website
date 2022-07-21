@@ -11,7 +11,7 @@ import ClubOfficers from './ClubOfficers';
 import Header from './Header';
 import Footer from './Footer';
 import History from './History';
-
+import Congress from './Congress';
 
 export default function Site() {
   return (
@@ -32,6 +32,9 @@ export default function Site() {
           </Route>
           <Route path="/history">
             <History />
+          </Route>
+          <Route path="/congress">
+            <Congress />
           </Route>
         </Switch>
       </div>
