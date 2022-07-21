@@ -20,7 +20,7 @@ class ArticleMD extends Component {
 
     const { markdown } = this.state;
     return <div style={styles}>
-        <ReactMarkdown source={markdown} escapeHtml={false}/>
+        <ReactMarkdown children={markdown}/>
       </div>;
   }
 }
