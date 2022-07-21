@@ -30,3 +30,7 @@ a.pagination__link {
     /* border: gray 1px solid;                                                                               */
     cursor: pointer;                                                                                     
 }
+
+p img {
+  width: 100%;
+}
