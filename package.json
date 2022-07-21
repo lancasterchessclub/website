@@ -9,7 +9,6 @@
     "@material-ui/lab": "^4.0.0-alpha.60",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-iframe": "^1.8.0",
     "react-markdown": "^4.2.2",
     "react-material-ui-carousel": "^2.2.4",
     "react-paginate": "^8.1.0",
