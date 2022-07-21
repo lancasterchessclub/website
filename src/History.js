@@ -52,19 +52,19 @@ export default function History() {
                 >
                     {
                         AGMmetaData.map((item, i) =>
-                            <div>
+                            <div key={i} >
                                 <Grid
                                     container
                                     spacing={0}
                                     direction="column"
                                     alignItems="center"
-                                    justify="center"
+                                    justifyContent="center"
                                 >
-                                    <Grid alignContent='center' item xs={8} key="history">
-                                        <Card raised="true" className={classes.history}>
+                                    <Grid item xs={8} key="history">
+                                        <Card className={classes.history}>
                                             <CardContent>
                                                 <center>
-                                                    <Typography textAlign='center'> {item.name} </Typography>
+                                                    <Typography> {item.name} </Typography>
                                                 </center>
                                                 <img width="100%" src={item.path} alt={item.name} />
                                             </CardContent>
@@ -86,11 +86,11 @@ export default function History() {
                 spacing={0}
                 direction="column"
                 alignItems="center"
-                justify="center"
+                justifyContent="center"
                 style={{ minHeight: '100vh' }}
             >
-                <Grid alignContent='center' item xs={8} key="history">
-                    <Card raised="true" className={classes.history}>
+                <Grid item xs={8} key="history">
+                    <Card className={classes.history}>
                         <CardContent>
                             <Typography>
                                 A meeting was held on October 29th 1895 at the Market Street Coffee
