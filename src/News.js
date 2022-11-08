@@ -1,59 +1,62 @@
-import React, { useEffect, useState } from 'react';
-import Pagination from 'react-responsive-pagination';
-import { makeStyles } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
-import theme from './theme';
-import Article from './newsArticles/ArticleMD';
-import './News.css';
+import React, { useEffect, useState } from "react";
+import Pagination from "react-responsive-pagination";
+import { makeStyles } from "@material-ui/core/styles";
+import Typography from "@material-ui/core/Typography";
+import theme from "./theme";
+import Article from "./newsArticles/ArticleMD";
+import "./News.css";
 
 const useStyles = makeStyles({
   container: {
-    width: '70%',
-    marginLeft: 'auto',
-    marginRight: 'auto',
-    textAlign: 'center',
+    width: "70%",
+    marginLeft: "auto",
+    marginRight: "auto",
+    textAlign: "center",
   },
   title: {
-    paddingTop: '20px',
-    textAlign: 'center',
+    paddingTop: "20px",
+    textAlign: "center",
     fontSize: theme.typography.title.fontSize,
   },
   pagination: {
-    display: 'inline-flex',
-    textAlign: 'center',
-    alignContent: 'center',
-    outline: 'filled',
-    listStyle: 'none',
-    nextLabel: '',
-  }
+    display: "inline-flex",
+    textAlign: "center",
+    alignContent: "center",
+    outline: "filled",
+    listStyle: "none",
+    nextLabel: "",
+  },
 });
 
 const files = [
-  './18.md',
-  './18.md',
-  './17.md',
-  './16.md',
-  './15.md',
-  './14.md',
-  './13.md',
-  './12.md',
-  './11.md',
-  './10.md',
-  './9.md',
-  './8.md',
-  './7.md',
-  './6.md',
-  './5.md',
-  './4.md',
-  './3.md',
-  './2.md',
-  './1.md',
+  "./19.md",
+  "./18.md",
+  "./18.md",
+  "./17.md",
+  "./16.md",
+  "./15.md",
+  "./14.md",
+  "./13.md",
+  "./12.md",
+  "./11.md",
+  "./10.md",
+  "./9.md",
+  "./8.md",
+  "./7.md",
+  "./6.md",
+  "./5.md",
+  "./4.md",
+  "./3.md",
+  "./2.md",
+  "./1.md",
 ];
 
 function Items({ currentItems }) {
   return (
     <>
-      {currentItems.map(item => <Article path={item} key={item} />)}
+      {currentItems.map((item) => (
+        <Article path={item} key={item} />
+      ))}
     </>
   );
 }
@@ -99,7 +102,9 @@ export default function News() {
 
   return (
     <div className={classes.container}>
-      <Typography className={classes.title} variant="h1">News</Typography>
+      <Typography className={classes.title} variant="h1">
+        News
+      </Typography>
       <PaginatedItems itemsPerPage={1} />
     </div>
   );
