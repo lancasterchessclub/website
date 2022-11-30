@@ -12,6 +12,7 @@ import Header from './Header';
 import Footer from './Footer';
 import History from './History';
 import Congress from './Congress';
+import Congress20221211 from './congress/20221211';
 
 export default function Site() {
   return (
@@ -32,6 +33,9 @@ export default function Site() {
           </Route>
           <Route path="/history">
             <History />
+          </Route>
+          <Route path="/congress/20221211">
+            <Congress20221211 />
           </Route>
           <Route path="/congress">
             <Congress />
