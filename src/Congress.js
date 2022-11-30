@@ -10,6 +10,7 @@ const useStyles = makeStyles({
   },
   list: {
     listStyle: "none",
+    lineHeight: "45px",
   },
 });
 
@@ -29,6 +30,9 @@ export default function Congress() {
         <ul className={classes.list}>
           <li>
             <Link to="/congress/20221211">Lancaster, Morecambe and District One Day Rapid Play 11th December 2022</Link>
+          </li>
+          <li>
+            <Link to="/congress/20230121">Second Lancaster Rapidplay 21st January 2023</Link>
           </li>
         </ul>
  
