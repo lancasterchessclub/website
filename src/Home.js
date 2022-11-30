@@ -36,7 +36,7 @@ export default function Home() {
           Update: Lancaster, Morecambe and District One Day Rapid Play 11th
           December 2022
           <br />
-          <Link href="/Congress">Click here to learn more</Link>
+          <Link href="/congress/20221211">Click here to learn more</Link>
         </h4>
         <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which
