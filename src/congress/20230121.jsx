@@ -29,12 +29,13 @@ export default function Congress20230121() {
         >
           <p>
             Contact: Richard Walsh, Email – 
-            <a href="mailto:richardsami@hotmail.co.uk">
-              <span class="underline">richardsami@hotmail.co.uk</span>
+            <a href="mailto:richardsami@hotmail.co.uk" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
+              richardsami@hotmail.co.uk
             </a>
           </p>
           <p>
-            Welcome to our 5 round ECF rated rapidplay event. We have found a
+            Welcome to our 5 round <a href="https://www.ecfrating.org.uk/v2/new/list_players.php" style={{ textDecoration: 'underline', cursor: 'pointer' }}> ECF rated rapidplay </a>
+    event. We have found a
             different venue from last time which has free parking.
           </p>
           <p>
@@ -99,8 +100,8 @@ export default function Congress20230121() {
           <p>Arbiter – TBC</p>
           <p>
             Contact details for queries: Richard Walsh, 
-            <a href="mailto:richardsami@hotmail.co.uk">
-              <span class="underline">richardsami@hotmail.co.uk</span>
+            <a href="mailto:richardsami@hotmail.co.uk" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
+              richardsami@hotmail.co.uk
             </a>
           </p>
           <p>
@@ -121,7 +122,7 @@ export default function Congress20230121() {
             <strong>CONDITIONS OF ENTRY:</strong>
           </p>
           <p>
-            Entries received after 18 June, if accepted, will require £5 late
+            Entries received after 18 January, if accepted, will require £5 late
             entry fee.
           </p>
           <p>
@@ -135,13 +136,19 @@ export default function Congress20230121() {
           </p>
           <ul>
             <li>
-              <p>ECF RapidPlay Grade</p>
+              <a href="https://www.ecfrating.org.uk/v2/new/list_players.php" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
+                ECF RapidPlay Grade
+              </a>
             </li>
             <li>
-              <p>Latest FIDE RapidPlay Rating</p>
+              <a href="https://www.ecfrating.org.uk/v2/new/list_players.php" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
+              Latest FIDE RapidPlay Rating
+              </a>
             </li>
             <li>
-              <p>ECF Standard Play Grade</p>
+              <a href="https://www.ecfrating.org.uk/v2/new/list_players.php" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
+              ECF Standard Play Grade
+              </a>
             </li>
           </ul>
           <p>
@@ -219,8 +226,9 @@ export default function Congress20230121() {
           <p>
             After payment, please send the following in an email to Richard
             Walsh{" "}
-            <a href="mailto:richardsami@hotmail.co.uk">
-              <span class="underline">richardsami@hotmail.co.uk</span>
+
+            <a href="mailto:richardsami@hotmail.co.uk" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
+              richardsami@hotmail.co.uk
             </a>
             :
           </p>
@@ -230,9 +238,11 @@ export default function Congress20230121() {
           <p>
             Go to the ECF database ecfrating.org.uk and find your details. Click
             on your ECF Code to do this. Forward a link to your details to{" "}
-            <a href="mailto:richardsami@hotmail.co.uk">
+
+            <a href="mailto:richardsami@hotmail.co.uk" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
               richardsami@hotmail.co.uk
-            </a>{" "}
+            </a>
+            {" "}
             together with which section you wish to enter (open, major or minor)
             and your name and rating. Use the priority list in the entry section
             of this website to determine your grade.
@@ -246,9 +256,10 @@ export default function Congress20230121() {
           </p>
           <p>
             Please email{" "}
-            <a href="mailto:richardsami@hotmail.co.uk">
+            <a href="mailto:richardsami@hotmail.co.uk" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
               richardsami@hotmail.co.uk
-            </a>{" "}
+            </a>
+            {" "}
             the following information:
           </p>
           <ul>

@@ -9,7 +9,6 @@ li.break a {
   border-color: transparent;                                                                           
 }
 a {
-  text-decoration: none !important;
   all: unset;
 }
 li:hover a {
