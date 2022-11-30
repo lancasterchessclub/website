@@ -13,6 +13,7 @@ import Footer from './Footer';
 import History from './History';
 import Congress from './Congress';
 import Congress20221211 from './congress/20221211';
+import Congress20230121 from './congress/20230121';
 
 export default function Site() {
   return (
@@ -36,6 +37,9 @@ export default function Site() {
           </Route>
           <Route path="/congress/20221211">
             <Congress20221211 />
+          </Route>
+          <Route path="/congress/20230121">
+            <Congress20230121 />
           </Route>
           <Route path="/congress">
             <Congress />
