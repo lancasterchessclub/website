@@ -23,7 +23,7 @@ export default function Congress20230121() {
         </h2>
       </header>
       <section>
-        <img src="/congress-20230121/cumbria-uni.jpg" alt="picture of cumbria uni" style={{ maxWidth: '100%'}} />
+        <img src="/congress-20230121/cumbria-uni.jpg" alt="Cumbria uni" style={{ maxWidth: '100%'}} />
       </section>
       <section>
         <article
