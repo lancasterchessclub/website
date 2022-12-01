@@ -22,7 +22,9 @@ export default function Congress20230121() {
           <strong>Second Lancaster Rapidplay 21 January 2023</strong>
         </h2>
       </header>
-
+      <section>
+        <img src="/congress-20230121/cumbria-uni.jpg" alt="picture of cumbria uni" style={{ maxWidth: '100%'}} />
+      </section>
       <section>
         <article
           style={{ textAlign: "left", maxWidth: "600px", margin: "auto" }}
@@ -313,7 +315,7 @@ export default function Congress20230121() {
             </li>
           </ul>
           <p>
-            <span class="underline">Walking from the station</span> · Leave the
+            <span>Walking from the station</span> · Leave the
             station passing the main ticket office and via the station slip road
             and left onto · Meeting House Ln. Continue to the traffic lights at
             the bottom of the hill and · Turn right onto King St/A6. continue
@@ -324,6 +326,11 @@ export default function Congress20230121() {
             just by the Park Hotel bus stop.
           </p>
         </article>
+      </section>
+      <section>
+        <img src="/congress-20230121/logo-1.jpg" alt="Community Connectors logo" style={{ maxWidth: '150px', marginRight: '10px' }} />
+        <img src="/congress-20230121/logo-2.jpg" alt="Lancaster City Council logo" style={{ maxWidth: '150px', marginRight: '10px' }} />
+        <img src="/congress-20230121/logo-3.jpg" alt="Cumbria University logo" style={{ maxWidth: '150px' }} />
       </section>
     </section>
   );
