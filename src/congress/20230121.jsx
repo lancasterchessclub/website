@@ -99,7 +99,7 @@ export default function Congress20230121() {
             </li>
           </ul>
           <p>Prize announcements and close 6 pm</p>
-          <p>Arbiter – TBC</p>
+          <p>Arbiter – Keith Freshwater</p>
           <p>
             Contact details for queries: Richard Walsh, 
             <a href="mailto:richardsami@hotmail.co.uk" style={{ textDecoration: 'underline', cursor: 'pointer' }}>
