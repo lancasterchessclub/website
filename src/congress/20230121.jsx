@@ -331,6 +331,8 @@ export default function Congress20230121() {
         <img src="/congress-20230121/logo-1.jpg" alt="Community Connectors logo" style={{ maxWidth: '150px', marginRight: '10px' }} />
         <img src="/congress-20230121/logo-2.jpg" alt="Lancaster City Council logo" style={{ maxWidth: '150px', marginRight: '10px' }} />
         <img src="/congress-20230121/logo-3.jpg" alt="Cumbria University logo" style={{ maxWidth: '150px' }} />
+        <img src="/congress-20230121/logo-4.jpg" alt="LDCVS" style={{ maxWidth: '150px' }} />
+        <img src="/congress-20230121/logo-5.jpg" alt="Eric Wright Charitable Trust" style={{ maxWidth: '150px' }} />
       </section>
     </section>
   );
