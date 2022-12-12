@@ -2,7 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import theme from "./theme";
-import Link from "@material-ui/core/Link";
+import { NavLink } from "react-router-dom";
 
 const useStyles = makeStyles({
   center: {
@@ -35,7 +35,7 @@ export default function Home() {
         <h4>
           Update: Lancaster Rapid Play 21st January 2023
           <br />
-          <Link to="/congress/20230121">Click here to learn more</Link>
+          <NavLink to="/congress/20230121">Click here to learn more</NavLink>
         </h4>
        <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which
