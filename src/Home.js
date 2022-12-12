@@ -35,7 +35,7 @@ export default function Home() {
         <h4>
           Update: Lancaster Rapid Play 21st January 2023
           <br />
-          <Link href="/congress/20230121">Click here to learn more</Link>
+          <Link to="/congress/20230121">Click here to learn more</Link>
         </h4>
        <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which
