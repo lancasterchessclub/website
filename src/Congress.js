@@ -29,9 +29,6 @@ export default function Congress() {
 
         <ul className={classes.list}>
           <li>
-            <Link to="/congress/20221211">Lancaster, Morecambe and District One Day Rapid Play 11th December 2022</Link>
-          </li>
-          <li>
             <Link to="/congress/20230121">Second Lancaster Rapidplay 21st January 2023</Link>
           </li>
         </ul>
@@ -41,6 +38,9 @@ export default function Congress() {
       <section>
         <h3>Previous</h3>
         <ul className={classes.list}>
+          <li>
+            <Link to="/congress/20221211">Lancaster, Morecambe and District One Day Rapid Play 11th December 2022</Link>
+          </li>
           <li>
             <a href="/congress-20220618.html">18th June 2022</a>
           </li>
