@@ -37,13 +37,7 @@ export default function Home() {
           <br />
           <Link href="/congress/20230121">Click here to learn more</Link>
         </h4>
-        <h4>
-          Update: Lancaster, Morecambe and District One Day Rapid Play 11th
-          December 2022
-          <br />
-          <Link href="/congress/20221211">Click here to learn more</Link>
-        </h4>
-        <Typography className={classes.description}>
+       <Typography className={classes.description}>
           Based in the heart of Lancaster, UK, our historic chess club, which
           dates back to 1895, welcomes players of all ages and abilities to come
           and enjoy a game of chess. Be it for short, long, casual or

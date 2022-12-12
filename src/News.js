@@ -29,6 +29,7 @@ const useStyles = makeStyles({
 });
 
 const files = [
+  "./20.md",
   "./19.md",
   "./18.md",
   "./18.md",
@@ -82,6 +83,7 @@ function PaginatedItems({ itemsPerPage, className }) {
     <>
       <Items currentItems={currentItems} />
       <Pagination
+        maxWidth={400}
         className={classes.pagination}
         previousLabel="<"
         nextLabel=">"
