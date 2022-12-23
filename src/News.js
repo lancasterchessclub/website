@@ -28,29 +28,7 @@ const useStyles = makeStyles({
   },
 });
 
-const files = [
-  "./20.md",
-  "./19.md",
-  "./18.md",
-  "./18.md",
-  "./17.md",
-  "./16.md",
-  "./15.md",
-  "./14.md",
-  "./13.md",
-  "./12.md",
-  "./11.md",
-  "./10.md",
-  "./9.md",
-  "./8.md",
-  "./7.md",
-  "./6.md",
-  "./5.md",
-  "./4.md",
-  "./3.md",
-  "./2.md",
-  "./1.md",
-];
+const files = Array(21).fill('').map((_, i) => `./${i + 1}.md`).reverse();
 
 function Items({ currentItems }) {
   return (
