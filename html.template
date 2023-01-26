@@ -15,7 +15,7 @@
 		<nav class="header">
 			<img class="logo" src="/header_bg_transparent.png" alt="Lancaster Chess Club Logo" />
 			<div class="menu">
-				<a class="menuItem" href="/home.html">Home</a>
+				<a class="menuItem" href="/index.html">Home</a>
 				<a class="menuItem" href="/news/$newsCount$.html">News</a>
 				<a class="menuItem" href="/officers.html">Officers</a>
 				<a class="menuItem" href="/history.html">History</a>
