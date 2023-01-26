@@ -1,0 +1,17 @@
+name: Build and Release
+
+on:
+  push:
+    branches: [ rewrite ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v3
+        - uses: r-lib/actions/setup-pandoc@v2
+        - run: bash ./build.sh
+        - uses: JamesIves/github-pages-deploy-action@4.1.5
+            with: 
+              branch: rewrite-pages # The branch the action should deploy to.
+              folder: build
