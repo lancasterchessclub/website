@@ -9,8 +9,8 @@ Club Chair - Lawrence Bland
 Club Secretary - Joss Waite
 <img src="/JossWaiteSmall.jpg" alt="jossw">
 
-Club Treasurer - Iain Mcgibbon
-<img src="/iain_treasurer.jpg" alt="iainm">
+Club Treasurer - Keerthi Angammana
+<img src="/keerthi.jpg" alt="keerthi">
 
 External Events Coordinator - Richard
 <img src="/richard_events.jpg" alt="richard">
@@ -23,6 +23,9 @@ IT (website) Coordinator - Dom Ginger
 
 Club Media Officer - Dan Holden
 <img src="/DanHoldenSmall.jpg" alt="danh">
+
+DSO and Chess in Schools Officer - James Mckiernan 
+<img src="james_mckiernan.jpg" alt="danh">
 
 A Team Captain - Danny Mcmenamin
 <img src="/danny_a_team.jpg" alt="danny">
