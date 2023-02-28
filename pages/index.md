@@ -1,6 +1,6 @@
 ## A Friendly Chess Club in the Heart of Lancaster
 
-**Update: [Sunday 26th March Lancaster District Rapid Play](/congress.html)**
+**Update: [Sunday 26th March Lancaster District Rapid Play](/congress/20230326.html)**
 
 Based in the heart of Lancaster, UK, our historic chess club, which dates back to 1895, welcomes players of all ages and abilities to come and enjoy a game of chess. Be it for short, long, casual or competitive games there's something for everyone.
 

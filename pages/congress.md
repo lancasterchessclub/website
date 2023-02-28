@@ -3,7 +3,7 @@
 Lancaster Chess Club hosts a number of Congresses throughout the year.
 
 ### Upcoming
-- **Sunday 26th March 2023** - Lancaster, Morecambe and District One Day Rapid Play. More Details comming soon.
+- [**Sunday 26th March 2023** - Lancaster, Morecambe and District One Day Rapid Play](/congress/20230326.html)
 - **Friday 4th - Sunday 6th August 2023** - Lancaster Weekend Standard Play Congress. More details coming soon.
 
 ### Previous
