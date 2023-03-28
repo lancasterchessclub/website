@@ -6,7 +6,7 @@ mkdir build/news
 mkdir build/congress
 cp -r src/. build
 cp -r assets/. build
-newsCount=$(find pages/news -type f | wc -l)
+newsCount=$(find pages/news -type f | wc -l | xargs)
 
 for file in $(find pages -type f -name '*.md'); do
 	file_no_md="${file%.md}"
