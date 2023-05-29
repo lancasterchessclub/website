@@ -6,14 +6,11 @@ Club President - Jane Collins
 Club Chair - Lawrence Bland
 <img src="/LawrenceBlandSmall.jpg" alt="lawrenceb">
 
-Club Secretary - Joss Waite
-<img src="/JossWaiteSmall.jpg" alt="jossw">
+Club Secretary and External Events Coordinator - Richard
+<img src="/richard_events.jpg" alt="richard">
 
 Club Treasurer - Keerthi Angammana
 <img src="/keerthi.jpg" alt="keerthi">
-
-External Events Coordinator - Richard
-<img src="/richard_events.jpg" alt="richard">
 
 IT (website) Coordinator - Iain Walmsley
 <img src="/IainWalmsleySmall.jpg" alt="iainw">
