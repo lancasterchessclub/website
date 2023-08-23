@@ -30,6 +30,6 @@ A Team Captain - Danny Mcmenamin
 B Team "Dragons" Captain - Jonathan Verden
 <img src="/jon_b_team.jpg" alt="jon">
 
-C Team "Marauders" Captain - Mike Williams
-<img src="/mike_c_team.jpg" alt="mike">
+C Team "Marauders" Captain - Paul Jackson
+<img src="/paul_c_team.jpg" alt="paul">
 
