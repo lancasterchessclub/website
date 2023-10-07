@@ -33,3 +33,5 @@ B Team "Dragons" Captain - Jonathan Verden
 C Team "Marauders" Captain - Paul Jackson
 <img src="/paul_c_team.jpg" alt="paul">
 
+Chess in Communities Officer - Anto
+<img width="100%" src="/anto_library.jpg" />
