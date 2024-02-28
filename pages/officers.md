@@ -30,8 +30,8 @@ A Team Captain - Danny Mcmenamin
 B Team "Dragons" Captain - Jonathan Verden
 <img src="/jon_b_team.jpg" alt="jon">
 
-C Team "Marauders" Captain - Paul Jackson
-<img src="/paul_c_team.jpg" alt="paul">
+C Team "Marauders" Captain - Neil Lawlor
+<img src="/neil_c_team.jpg" alt="paul">
 
 Chess in Communities Officer - Anto
 <img width="100%" src="/anto_library.jpg" />
