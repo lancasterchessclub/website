@@ -1,5 +1,11 @@
 ## Chess in Schools and Communities
 
+### Join Our Online Chess Club
+
+Fancy a game of online chess? Then why not sign up to Lancaster’s online chess club. As you would expect it is also called “Lancaster Chess Club”.
+You can log on to join at this link. [https://www.chess.com/club/lancaster-chess-club](https://www.chess.com/club/lancaster-chess-club) . We will be hosting online events, daily games, and offering a forum to discuss various topics. You will have to send an invite to join the club, just put your name and a sentence about yourself for example “Joe Bloggs, Live in Garstang and love chess!” and one of the administrators will accept you onto the club. All are welcome to join, beginners through to experts, club affiliation is not needed but we encourage those who do join our site to also come to the club or the library sessions if you can.
+
+
 ### Chess in Secondary Schools
 
 <img width="100%" src="/congress-20230804/james.jpg" />
