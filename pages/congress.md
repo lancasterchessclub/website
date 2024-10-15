@@ -3,6 +3,7 @@
 Lancaster Chess Club hosts a number of Congresses throughout the year.
 
 ### Upcoming
+- [**Saturday 18 January 2025** - Fourth Lancaster Rapid Play Congress](/congress/20250118.html)
 
 ### Previous
 - [**Friday 9th - Sunday 11th August 2024** - Lancaster Standard Play Congress](/congress/20240809.html)
