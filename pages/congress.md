@@ -3,6 +3,7 @@
 Lancaster Chess Club hosts a number of Congresses throughout the year.
 
 ### Upcoming
+- [**15 – 17 August 2025** Third Lancaster Standard Play Congress  - £2,600 in Prizes](/congress/20250815.html)
 
 ### Previous
 - [**Saturday 18 January 2025** - Fourth Lancaster Rapid Play Congress](/congress/20250118.html)
