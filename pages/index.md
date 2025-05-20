@@ -1,6 +1,6 @@
 ## A Friendly Chess Club in the Heart of Lancaster
 
-**Update: - [**15 – 17 August 2025** Third Lancaster Standard Play Congress  - £2,600 in Prizes](/congress/20250815.html)**
+**Update: - [**15 – 17 August 2025** Third Lancaster Standard Play Congress  - £2,750 in Prizes](/congress/20250815.html)**
 
 Based in the heart of Lancaster, UK, our historic chess club, which dates back to 1895, welcomes players of all ages and abilities to come and enjoy a game of chess. Be it for short, long, casual or competitive games there's something for everyone.
 
