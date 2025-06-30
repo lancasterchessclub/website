@@ -1,7 +1,6 @@
 ## Club Officers
 
-Club President - Jane Collins
-<img src="/jane_president.jpg" alt="jane">
+Club President - Vacant
 
 Club Chair - Lawrence Bland
 <img src="/LawrenceBlandSmall.jpg" alt="lawrenceb">
@@ -33,5 +32,5 @@ C Team "Marauders" Captain - Neil Lawlor
 Chess in Communities Officer - Anto
 <img width="100%" src="/anto_library.jpg" />
 
-Callum Woods – Chess in Primary Schools Officer and Social Media
-<img width="100%" src="/callum.jpg" />
+Harrison Theobald – Chess in Primary Schools Officer and Social Media
+<img width="100%" src="/harrison.jpg" />
