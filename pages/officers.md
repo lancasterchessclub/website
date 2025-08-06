@@ -5,7 +5,7 @@ Club President - Vacant
 Club Chair - Lawrence Bland
 <img src="/LawrenceBlandSmall.jpg" alt="lawrenceb">
 
-Club Secretary and External Events Coordinator - Richard
+Club Secretary and External Events Coordinator - Richard Walsh
 <img src="/richard_events.jpg" alt="richard">
 
 Club Treasurer - Keerthi Angammana
@@ -23,14 +23,14 @@ Club Media Officer - Dan Holden
 A Team captain, DSO and Chess in Secondary Schools Officer - James Mckiernan 
 <img src="james_mckiernan.jpg" alt="james">
 
-B Team "Dragons" Captain - Jonathan Verden
+Dragons Team Captain - Jonathan Verden
 <img src="/jon_b_team.jpg" alt="jon">
 
-C Team "Marauders" Captain - Neil Lawlor
+Marauders Team Captain - Neil Lawlor
 <img src="/neil_c_team.jpg" alt="paul">
 
 Chess in Communities Officer - Anto
 <img width="100%" src="/anto_library.jpg" />
 
-Harrison Theobald – Chess in Primary Schools Officer and Social Media
+ Social Media and IT (website) Coordinator - Harrison Theobald
 <img width="100%" src="/harrison.jpg" />
