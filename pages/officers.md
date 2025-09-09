@@ -29,8 +29,13 @@ Dragons Team Captain - Jonathan Verden
 Marauders Team Captain - Neil Lawlor
 <img src="/neil_c_team.jpg" alt="paul">
 
+Lancaster Castles Team Captain - Dave Littler
+<img src="/DaveLittler" />
+
 Chess in Communities Officer - Anto
 <img width="100%" src="/anto_library.jpg" />
 
  Social Media and IT (website) Coordinator - Harrison Theobald
 <img width="100%" src="/harrison.jpg" />
+
+
