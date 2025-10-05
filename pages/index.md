@@ -1,6 +1,6 @@
 ## Upcoming Congresses
 
-[**Saturday 24th January 2026** Fifth Lancaster Rapid Play Congress](/congress/20250124.html)
+[**Saturday 24th January 2026** Fifth Lancaster Rapid Play Congress](/congress/20260124.html)
 
 
 ## A Friendly Chess Club in the Heart of Lancaster
