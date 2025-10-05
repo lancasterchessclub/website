@@ -1,3 +1,8 @@
+## Upcoming Congresses
+
+[**Saturday 24th January 2026** Fifth Lancaster Rapid Play Congress](/congress/20250124.html)
+
+
 ## A Friendly Chess Club in the Heart of Lancaster
 
 Based in the heart of Lancaster, UK, our historic chess club, which dates back to 1895, welcomes players of all ages and abilities to come and enjoy a game of chess. Be it for short, long, casual or competitive games there's something for everyone.
