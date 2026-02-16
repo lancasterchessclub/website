@@ -4,7 +4,7 @@ Lancaster Chess Club hosts a number of Congresses throughout the year.
 
 ### Upcoming 
 
- **4th FIDE Lancaster Standard Play Congress, 14 - 16 August, details to be confirmed
+ [**4th FIDE Lancaster Standard Play Congress, 14 - 16 August, details to be confirmed]
 
 ### Previous
 - [**Saturday 24th January 2026** Fifth Lancaster Rapid Play Congress](/congress/20260124.html)
