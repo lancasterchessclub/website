@@ -1,6 +1,6 @@
 ## Upcoming Congresses
 
-[**Saturday 24th January 2026** Fifth Lancaster Rapid Play Congress](/congress/20260124.html)
+**14 - 16 August 2026** 4th FIDE Lancaster Standard Play Congress, details to be confirmed
 
 
 ## A Friendly Chess Club in the Heart of Lancaster
