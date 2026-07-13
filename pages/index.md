@@ -1,4 +1,4 @@
-## Upcoming Congresses
+## Upcoming Events
 
 [**14 - 16 August 2026** 4th FIDE Lancaster Standard Play Congress](/congress/20260814.html)
 
