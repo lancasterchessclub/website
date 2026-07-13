@@ -2,7 +2,7 @@
 
 [**14 - 16 August 2026** 4th FIDE Lancaster Standard Play Congress](/congress/20260814.html)
 
-[**Monday 17th August 2026** Lancaster Chess Festival](https://www.chess-fest.com/lancaster) Market Square , Lancaster
+[**Monday 17th August 2026** Lancaster Chess Festival](https://www.chess-fest.com/lancaster)
 
 
 ## A Friendly Chess Club in the Heart of Lancaster
