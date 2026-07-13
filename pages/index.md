@@ -4,9 +4,9 @@
 
 [**Monday 17th August 2026** Lancaster Chess Festival](https://www.chess-fest.com/lancaster)
 
-**Tuesday 14th July 2026** Summer Rapidplay - See news section for more details
+**14th July 2026 - 1st September 2026** Summer Rapidplay - See news section for more details
 
-**Tuesday 21st July 2026** Summer Rapidplay
+
 
 
 
