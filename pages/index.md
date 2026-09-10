@@ -1,13 +1,5 @@
 ## Upcoming Events
 
-[**14 - 16 August 2026** 4th FIDE Lancaster Standard Play Congress](/congress/20260814.html)
-
-[**Monday 17th August 2026** Lancaster Chess Festival](https://www.chess-fest.com/lancaster)
-
-**14th July 2026 - 1st September 2026** Summer Rapidplay - See news section for more details
-
-
-
 
 
 ## A Friendly Chess Club in the Heart of Lancaster
