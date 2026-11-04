@@ -1,6 +1,6 @@
 ## Upcoming Events
 
-[6th Lancaster Rapd Play Congress. Saturday 9 January 2027](pages/congress/20270109.md)
+[6th Lancaster Rapd Play Congress. Saturday 9 January 2027](/congress/20270109.html)
 
 ## A Friendly Chess Club in the Heart of Lancaster
 
