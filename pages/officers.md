@@ -26,8 +26,8 @@ A Team captain, DSO and Chess in Secondary Schools Officer - James Mckiernan
 Dragons Team Captain - Jonathan Verden
 <img src="/jon_b_team.jpg" alt="jon">
 
-Marauders Team Captain - Neil Lawlor
-<img src="/neil_c_team.jpg" alt="paul">
+Marauders Team Captain - Harrison Theobald
+<img width="100%" src="/harrison.jpg" />
 
 Lancaster Castles Team Captain - Dave Littler
 <img src="/DaveLittler" />
